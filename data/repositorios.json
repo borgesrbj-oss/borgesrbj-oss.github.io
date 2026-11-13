@@ -1,0 +1,79 @@
+{
+  "username": "borgesrbj-oss",
+  "generated_at": "2026-11-13T22:12:11.051Z",
+  "repositories": [
+    {
+      "name": "app-baba-jogadores",
+      "description": null,
+      "language": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "CSS",
+        "HTML"
+      ],
+      "stargazers_count": 0,
+      "html_url": "https://github.com/borgesrbj-oss/app-baba-jogadores",
+      "homepage": null,
+      "updated_at": "2026-09-28T22:44:00Z",
+      "archived": false,
+      "fork": false,
+      "private": false
+    },
+    {
+      "name": "agenda-rr",
+      "description": null,
+      "language": "HTML",
+      "languages": [
+        "HTML"
+      ],
+      "stargazers_count": 0,
+      "html_url": "https://github.com/borgesrbj-oss/agenda-rr",
+      "homepage": null,
+      "updated_at": "2026-09-14T17:33:06Z",
+      "archived": false,
+      "fork": false,
+      "private": false
+    },
+    {
+      "name": "sportmanager",
+      "description": "FUTAPP",
+      "language": "HTML",
+      "languages": [
+        "HTML"
+      ],
+      "stargazers_count": 0,
+      "html_url": "https://github.com/borgesrbj-oss/sportmanager",
+      "homepage": null,
+      "updated_at": "2026-04-27T23:55:53Z",
+      "archived": false,
+      "fork": false,
+      "private": false
+    },
+    {
+      "name": "Artilharia",
+      "description": null,
+      "language": null,
+      "languages": [],
+      "stargazers_count": 0,
+      "html_url": "https://github.com/borgesrbj-oss/Artilharia",
+      "homepage": null,
+      "updated_at": "2026-03-24T00:07:07Z",
+      "archived": false,
+      "fork": false,
+      "private": false
+    },
+    {
+      "name": "artilhariaFutCoreano",
+      "description": "Artilharia",
+      "language": null,
+      "languages": [],
+      "stargazers_count": 0,
+      "html_url": "https://github.com/borgesrbj-oss/artilhariaFutCoreano",
+      "homepage": null,
+      "updated_at": "2026-03-24T00:03:28Z",
+      "archived": false,
+      "fork": false,
+      "private": false
+    }
+  ]
+}
