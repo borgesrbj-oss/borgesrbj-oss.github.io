@@ -1,0 +1,71 @@
+name: Atualizar e publicar portfólio
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    - cron: '20 9 * * *'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: portfolio-pages
+  cancel-in-progress: false
+
+jobs:
+  atualizar:
+    if: github.event_name != 'push'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Atualizar somente os dados públicos
+        run: npm run atualizar
+      - name: Registrar a cópia atualizada
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/repositorios.json data/README-perfil.md
+          if ! git diff --cached --quiet; then
+            git commit -m "docs: atualizar lista pública de projetos"
+            git push
+          fi
+
+  publicar:
+    needs: atualizar
+    if: always() && (needs.atualizar.result == 'success' || needs.atualizar.result == 'skipped')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.publicacao.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Verificar a página e a lógica dos projetos
+        run: npm run check
+      - uses: actions/configure-pages@v5
+      - name: Preparar arquivos públicos
+        run: |
+          mkdir -p site
+          cp index.html .nojekyll site/
+          cp -r assets data site/
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - name: Publicar no GitHub Pages
+        id: publicacao
+        uses: actions/deploy-pages@v4
