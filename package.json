@@ -1,0 +1,14 @@
+{
+  "name": "portfolio-ricardo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portfólio público de projetos de Ricardo no GitHub.",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "test": "node --test",
+    "check": "node --check assets/app.mjs && node --check assets/projects.mjs && node --check scripts/atualizar-projetos.mjs && node --test",
+    "atualizar": "node scripts/atualizar-projetos.mjs"
+  },
+  "engines": { "node": ">=22" }
+}

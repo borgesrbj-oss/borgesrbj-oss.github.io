@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f8f6f2">
+    <meta name="description" content="Conheça os projetos públicos de Ricardo, explore as tecnologias e acompanhe as novidades no GitHub.">
+    <meta property="og:title" content="Ricardo — projetos & ideias">
+    <meta property="og:description" content="Um espaço para reunir o que estou construindo. Explore meus projetos públicos no GitHub.">
+    <meta property="og:type" content="website">
+    <title>Ricardo — projetos & ideias</title>
+    <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
+    <link rel="stylesheet" href="./assets/styles.css">
+    <script type="module" src="./assets/app.mjs"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#projetos">Pular para os projetos</a>
+    <header class="site-header wrap">
+      <a class="brand" href="#inicio" aria-label="Ricardo, início"><span class="brand-mark" aria-hidden="true">r.</span><span>Ricardo<span class="brand-detail">projetos & ideias</span></span></a>
+      <nav aria-label="Navegação principal"><a class="nav-projects" href="#projetos">Meus projetos</a><a class="button button-small button-outline" href="https://github.com/borgesrbj-oss" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></nav>
+    </header>
+    <main id="inicio">
+      <section class="hero wrap" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="little-spark" aria-hidden="true">✳</span> OLÁ, EU SOU O RICARDO</p>
+          <h1 id="hero-title">Ideias que<br>viram <em>projetos.</em></h1>
+          <p class="hero-description">Um espaço para reunir o que estou construindo.<br class="desktop-break"> Explore meus projetos públicos, descubra as tecnologias e acompanhe as próximas ideias.</p>
+          <div class="hero-actions"><a class="button button-dark" href="#projetos">Explorar projetos <span aria-hidden="true">↓</span></a><a class="text-link" href="https://github.com/borgesrbj-oss" target="_blank" rel="noopener noreferrer">Vamos conversar no GitHub <span aria-hidden="true">↗</span></a></div>
+          <div class="hero-note"><span class="status-dot" aria-hidden="true"></span> Novos repositórios aparecem aqui automaticamente.</div>
+        </div>
+        <div class="hero-visual" aria-label="Perfil de Ricardo no GitHub">
+          <span class="orbit orbit-one" aria-hidden="true"></span><span class="orbit orbit-two" aria-hidden="true"></span>
+          <span class="floating-label label-top" aria-hidden="true">&lt; ideias em movimento /&gt;</span>
+          <div class="profile-card">
+            <div class="profile-card-top"><span aria-hidden="true">● ● ●</span><span>meu espaço na web</span></div>
+            <div class="profile-body"><span class="avatar-frame"><img src="./assets/ricardo.jpg" alt="Foto do perfil de Ricardo no GitHub" width="160" height="160" fetchpriority="high"></span><h2>Ricardo<span aria-hidden="true">✳</span></h2><p>@borgesrbj-oss</p><div class="profile-rule"></div><p class="profile-caption">Cada repositório,<br>uma ideia em construção.</p><a href="https://github.com/borgesrbj-oss" target="_blank" rel="noopener noreferrer" class="profile-link">Visitar meu perfil <span aria-hidden="true">↗</span></a></div>
+          </div>
+          <span class="floating-label label-bottom" aria-hidden="true"><span>✦</span> feito de curiosidade</span>
+        </div>
+      </section>
+      <section class="projects-section" id="projetos" aria-labelledby="projects-title">
+        <div class="wrap">
+          <div class="section-heading"><div><p class="eyebrow">UM POUCO DO QUE EU CONSTRUO</p><h2 id="projects-title">Meu caderno de <em>projetos</em><span class="heading-dot" aria-hidden="true">.</span></h2></div><div class="project-counter"><strong id="total-count">—</strong><span>repositórios<br>públicos</span></div></div>
+          <p class="section-intro">Código, experimentos e novas possibilidades. Escolha uma linguagem ou encontre algo pelo nome.</p>
+          <form class="project-tools" role="search" id="filters-form">
+            <div class="search-field"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><label class="sr-only" for="project-search">Buscar projetos por nome ou descrição</label><input id="project-search" type="search" placeholder="Buscar uma ideia, um projeto…" autocomplete="off"><kbd aria-hidden="true">/</kbd></div>
+            <label class="language-field" for="language-filter"><span>Linguagem</span><select id="language-filter"><option value="">Todas as linguagens</option></select></label>
+          </form>
+          <div class="results-bar"><p id="results-count" aria-live="polite">Preparando os projetos…</p><span class="source-note" id="source-note">Conectando ao GitHub</span></div>
+          <div class="notice" id="data-notice" hidden role="status"></div>
+          <div id="projects-grid" class="projects-grid" aria-busy="true"><div class="loading-state"><span class="loader" aria-hidden="true"></span><p>Buscando novas ideias no GitHub…</p></div></div>
+          <div class="empty-state" id="empty-state" hidden><span aria-hidden="true">⌕</span><h3>Nenhum projeto por aqui.</h3><p>Tente outra busca ou escolha uma linguagem diferente.</p><button class="button button-outline" type="button" id="reset-filters">Limpar filtros</button></div>
+          <noscript><p class="notice">Ative o JavaScript para buscar e filtrar os projetos. Você também pode <a href="https://github.com/borgesrbj-oss?tab=repositories">ver todos os repositórios no GitHub</a>.</p></noscript>
+        </div>
+      </section>
+      <section class="contact-section wrap" aria-labelledby="contact-title"><div class="contact-symbol" aria-hidden="true">✳</div><div><p class="eyebrow">A PRÓXIMA IDEIA PODE COMEÇAR COM UMA CONVERSA</p><h2 id="contact-title">Vamos construir conexões?</h2><p>Veja o código, acompanhe os projetos ou deixe uma ideia no GitHub.</p></div><a class="button button-dark" href="https://github.com/borgesrbj-oss" target="_blank" rel="noopener noreferrer">Encontrar no GitHub <span aria-hidden="true">↗</span></a></section>
+    </main>
+    <footer class="site-footer wrap"><p>Ricardo <span aria-hidden="true">·</span> projetos & ideias</p><p>Uma coleção em constante construção <span aria-hidden="true">✦</span></p><a href="#inicio">Voltar ao início ↑</a></footer>
+  </body>
+</html>
