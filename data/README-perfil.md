@@ -10,6 +10,7 @@ A lista abaixo reúne meus repositórios públicos e é atualizada automaticamen
 
 | Projeto | Descrição | Linguagens | Estrelas | Atualização | Demo |
 | --- | --- | --- | ---: | --- | --- |
+| [r10tri](https://github.com/borgesrbj-oss/r10tri) | Gestão de treinos de triatlo, atletas e exportações com Next.js, React e PostgreSQL. | TypeScript, JavaScript, CSS, HTML | 0 | 14/11/2026 | — |
 | [borgesrbj-oss](https://github.com/borgesrbj-oss/borgesrbj-oss) | Perfil de Ricardo com lista automática dos projetos públicos no GitHub. | JavaScript | 0 | 13/11/2026 | — |
 | [borgesrbj-oss.github.io](https://github.com/borgesrbj-oss/borgesrbj-oss.github.io) | Portfólio de Ricardo com projetos públicos, busca por linguagem e atualização automática. | JavaScript, HTML | 0 | 13/11/2026 | [Abrir](https://borgesrbj-oss.github.io/) |
 | [app-baba-jogadores](https://github.com/borgesrbj-oss/app-baba-jogadores) | Descrição não informada no GitHub. | JavaScript, CSS, HTML | 0 | 28/09/2026 | — |

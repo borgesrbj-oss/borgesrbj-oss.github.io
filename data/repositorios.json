@@ -1,7 +1,25 @@
 {
   "username": "borgesrbj-oss",
-  "generated_at": "2026-11-14T15:51:52.892Z",
+  "generated_at": "2026-11-14T20:52:54.839Z",
   "repositories": [
+    {
+      "name": "r10tri",
+      "description": "Gestão de treinos de triatlo, atletas e exportações com Next.js, React e PostgreSQL.",
+      "language": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "CSS",
+        "HTML"
+      ],
+      "stargazers_count": 0,
+      "html_url": "https://github.com/borgesrbj-oss/r10tri",
+      "homepage": null,
+      "updated_at": "2026-11-14T20:52:30Z",
+      "archived": false,
+      "fork": false,
+      "private": false
+    },
     {
       "name": "borgesrbj-oss",
       "description": "Perfil de Ricardo com lista automática dos projetos públicos no GitHub.",
