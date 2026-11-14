@@ -10,10 +10,12 @@ A lista abaixo reúne meus repositórios públicos e é atualizada automaticamen
 
 | Projeto | Descrição | Linguagens | Estrelas | Atualização | Demo |
 | --- | --- | --- | ---: | --- | --- |
+| [borgesrbj-oss](https://github.com/borgesrbj-oss/borgesrbj-oss) | Perfil de Ricardo com lista automática dos projetos públicos no GitHub. | JavaScript | 0 | 13/11/2026 | — |
+| [borgesrbj-oss.github.io](https://github.com/borgesrbj-oss/borgesrbj-oss.github.io) | Portfólio de Ricardo com projetos públicos, busca por linguagem e atualização automática. | JavaScript, HTML | 0 | 13/11/2026 | [Abrir](https://borgesrbj-oss.github.io/) |
 | [app-baba-jogadores](https://github.com/borgesrbj-oss/app-baba-jogadores) | Descrição não informada no GitHub. | JavaScript, CSS, HTML | 0 | 28/09/2026 | — |
 | [agenda-rr](https://github.com/borgesrbj-oss/agenda-rr) | Descrição não informada no GitHub. | HTML | 0 | 14/09/2026 | — |
 | [sportmanager](https://github.com/borgesrbj-oss/sportmanager) | FUTAPP | HTML | 0 | 27/04/2026 | — |
 | [Artilharia](https://github.com/borgesrbj-oss/Artilharia) | Descrição não informada no GitHub. | Não identificadas | 0 | 23/03/2026 | — |
 | [artilhariaFutCoreano](https://github.com/borgesrbj-oss/artilhariaFutCoreano) | Artilharia | Não identificadas | 0 | 23/03/2026 | — |
 
-_Última atualização da lista: 13/11/2026._
+_Última atualização da lista: 14/11/2026._

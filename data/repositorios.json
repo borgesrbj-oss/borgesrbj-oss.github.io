@@ -1,7 +1,38 @@
 {
   "username": "borgesrbj-oss",
-  "generated_at": "2026-11-13T22:12:11.051Z",
+  "generated_at": "2026-11-14T15:51:52.892Z",
   "repositories": [
+    {
+      "name": "borgesrbj-oss",
+      "description": "Perfil de Ricardo com lista automática dos projetos públicos no GitHub.",
+      "language": "JavaScript",
+      "languages": [
+        "JavaScript"
+      ],
+      "stargazers_count": 0,
+      "html_url": "https://github.com/borgesrbj-oss/borgesrbj-oss",
+      "homepage": null,
+      "updated_at": "2026-11-13T22:17:33Z",
+      "archived": false,
+      "fork": false,
+      "private": false
+    },
+    {
+      "name": "borgesrbj-oss.github.io",
+      "description": "Portfólio de Ricardo com projetos públicos, busca por linguagem e atualização automática.",
+      "language": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "HTML"
+      ],
+      "stargazers_count": 0,
+      "html_url": "https://github.com/borgesrbj-oss/borgesrbj-oss.github.io",
+      "homepage": "https://borgesrbj-oss.github.io/",
+      "updated_at": "2026-11-13T22:17:19Z",
+      "archived": false,
+      "fork": false,
+      "private": false
+    },
     {
       "name": "app-baba-jogadores",
       "description": null,
