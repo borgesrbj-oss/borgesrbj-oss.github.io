@@ -19,4 +19,4 @@ A lista abaixo reúne meus repositórios públicos e é atualizada automaticamen
 | [Artilharia](https://github.com/borgesrbj-oss/Artilharia) | Descrição não informada no GitHub. | Não identificadas | 0 | 23/03/2026 | — |
 | [artilhariaFutCoreano](https://github.com/borgesrbj-oss/artilhariaFutCoreano) | Artilharia | Não identificadas | 0 | 23/03/2026 | — |
 
-_Última atualização da lista: 26/11/2026._
+_Última atualização da lista: 27/11/2026._
